@@ -18,5 +18,10 @@ export const nomes = [
 		nome:"Laercio 04",
 		idade:45,
 		altura:1.88
+	},
+	{
+		nome:"Laercio 04",
+		idade:45,
+		altura:1.88
 	}
 ];
