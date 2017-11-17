@@ -3,7 +3,7 @@ const ItemListaComp = ({avatar,nome, idade, altura}) => {
     return(
         <li className="item_comp">
             <div className="item_foto">
-                <img src={avatar} alt="teste"/>
+                <img className="avatar_img" src={avatar} alt="teste"/>
             </div>
             <div className="item_info">
                 <p className="txt titulo">{nome}</p>

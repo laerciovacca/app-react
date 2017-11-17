@@ -1,13 +1,15 @@
 .App {
   text-align: center;
+  background: #fcfcfc
 }
 
 /**/
 
 .minhalista{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   text-align: left;
-  padding:10%;
+  padding:5% 0 0 0 ;
 }
 .minhalista .lista{
   list-style: none;
@@ -16,16 +18,20 @@
 }
 .item_comp{
   padding: 0 0 0 0;
-  background-color: #ccc;
+  background-color: #f5f2f0;
   width: 100%;
 }
 .item_foto{
   display: inline-block;
-  width: 40%;
+  width: 30%;
 }
 .item_info{
   display: inline-block;
-  width: 50%;
+  width: 70%;
+}
+.avatar_img{
+  display: block;
+  width: 80%;
 }
 .item_info .txt{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
