@@ -2,27 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+/**/
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.minhalista{
+  width: 100%;
+  text-align: left;
+  padding:10%;
 }
-
-.App-title {
-  font-size: 1.5em;
+.minhalista .lista{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
-.App-intro {
-  font-size: large;
+.item_comp{
+  padding: 0 0 0 0;
+  background-color: #ccc;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.item_foto{
+  display: inline-block;
+  width: 40%;
+}
+.item_info{
+  display: inline-block;
+  width: 50%;
+}
+.item_info .txt{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  
 }
