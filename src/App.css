@@ -18,16 +18,22 @@
 }
 .item_comp{
   padding: 0 0 0 0;
-  background-color: #f5f2f0;
+  background-color: #FBFFEE;
   width: 100%;
+  float: left;
+  border:2px solid #d7d7d7;
+ border-radius: 4px;
+ margin-bottom: 2%; 
 }
 .item_foto{
-  display: inline-block;
+  display: block;
   width: 30%;
+  float: left;
 }
 .item_info{
-  display: inline-block;
+  display: block;
   width: 70%;
+  float: left;
 }
 .avatar_img{
   display: block;
